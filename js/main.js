@@ -1,6 +1,6 @@
 let menu_btn = document.querySelector(".btn_bar");
 let cancel_btn = document.querySelector(".cancel_btn");
-let menu_bar = document.querySelector(".menu");
+let menu_bar = document.querySelector(".navbar_lg");
 
 menu_btn.onclick = function() {
     menu_btn.style.opacity = "0";

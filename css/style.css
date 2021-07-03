@@ -171,7 +171,7 @@
         .nav_bar .navbar_lg .menu .phone_mail .all_hover:hover {
             color: var(--second-color);
         }
-        .nav_bar .menu {
+        .nav_bar .navbar_lg {
             flex-direction: column;
             background-color: var(--main-color);
             width: 100%;
@@ -179,7 +179,7 @@
             height: 100vh;
             padding-top: 100px !important;
             position: absolute;
-            left: 0;
+            left: -100%;
             top: 0;
             transition: 0.5s;
             z-index: 999;

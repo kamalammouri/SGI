@@ -20,9 +20,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-    <!-- css main style -->
+    <!-- main style -->
     <link rel="stylesheet" href="css/style.css">
-
+    <!-- slider style -->
+    <link rel="stylesheet" href="css/slider.css">
 
 </head>
 
@@ -70,7 +71,6 @@
         <div class="nav_bar">
             <nav class="navbar_lg">
                 <div class="container">
-
                     <ul class="row menu">
 
                         <li class="col-lg-3">
@@ -112,8 +112,10 @@
             <div class="navbar_mobile">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
-                        <div class="logo_3 col-4">
-                            <a href=""><img src="/img/logo.png" alt=""></a>
+                        <div class="logo_3 col-5">
+                            <a href="">
+                                <img src="/img/logo.png" alt="">
+                            </a>
                         </div>
                         <div class="btn_bar col-2">
                             <i class="fas fa-bars "></i>
@@ -124,9 +126,51 @@
         </div>
     </header>
     <!-- End Header -->
+    <!-- Slider Start-->
+    <section class="home">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-controls">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('img/slide-1.jpg')"></li>
+                    <li data-target="#carousel" data-slide-to="1" style="background-image:url('img/slide-2.jpg')"></li>
+                    <li data-target="#carousel" data-slide-to="2" style="background-image:url('img/slide-3.jpg')"></li>
 
+                </ol>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <img src="img/left-arrow.svg" alt="Prev">
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <img src="img/right-arrow.svg" alt="Next">
+                </a>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image:url('img/slide-1.jpg')">
+                    <div class="container">
+                        <h2>I'm Rose</h2>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url('img/slide-2.jpg')">
+                    <div class="container">
+                        <h2>I'm Jasmine</h2>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url('img/slide-3.jpg')">
+                    <div class="container">
+                        <h2>I'm Ruby</h2>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slider ENd-->
 
-    <script src="/js/main.js"></script>
+    <!-- SCRIPT JS-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- SCRIPT JS-->
 </body>
 
 </html>
