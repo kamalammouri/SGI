@@ -1,11 +1,13 @@
 .home .carousel-item {
-    min-height: 100vh;
+    min-height: 70vh;
     background-position: center;
     background-size: cover;
     position: relative;
     z-index: 1;
 }
 
+
+/*
 .home .carousel-item:before {
     content: '';
     position: absolute;
@@ -16,6 +18,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
+*/
 
 .home .carousel-item .container {
     position: absolute;
