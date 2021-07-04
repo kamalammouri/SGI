@@ -1,0 +1,80 @@
+:root {
+    --text-light-color: #6f6f6f;
+    --main-color: #214b87;
+    --second-color: #e63946;
+    --third-color: #457b9d;
+    --for-color: #f1faee;
+}
+
+.apropos {
+    color: var(--main-color);
+}
+
+.apropos .apropos_txt .apropos_miniTitle {
+    color: var(--second-color);
+}
+
+.apropos .apropos_txt .apropos_par {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    word-spacing: 1.5px;
+    color: var(--text-light-color);
+}
+
+.sgi {
+    border-bottom: 2px solid var(--second-color);
+}
+
+.apropos .apropos_txt .service_a {
+    color: var(--text-light-color);
+}
+
+.apropos .apropos_txt .lireMore a {
+    color: var(--main-color);
+    border: 2px solid var(--second-color);
+    border-radius: 20px;
+    background-color: var(--for-color);
+    transition: background-color 0.5s;
+}
+
+.apropos .apropos_txt .lireMore a:hover {
+    color: var(--for-color);
+    background-color: var(--second-color);
+}
+
+.apropos_partition {
+    border: 1px solid var(--for-color);
+    background-color: var(--main-color);
+}
+
+.apropos_partition:first-child::before {
+    content: 'Faites-nous confiance, et demandez un diagnostic gratuit pour votre système de sécurité.';
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--second-color);
+    color: var(--for-color);
+    text-align: center;
+}
+
+.apropos_partition:hover::before {
+    display: block;
+    transition: display 0.5s;
+}
+
+.apropos_partition .graph_centent {
+    text-align: center;
+}
+
+.graph_centent,
+.graph_centent i {
+    color: var(--for-color);
+}
+
+.graph_centent i {
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
