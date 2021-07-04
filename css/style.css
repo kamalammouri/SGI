@@ -111,6 +111,17 @@
         position: relative;
     }
     
+    .bar_selected:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background-color: var(--second-color);
+        transition: all 0.5s;
+    }
+    
     .nav_bar .menu li .bar_hover:hover::after {
         width: 100%;
     }
@@ -129,7 +140,8 @@
     .nav_bar .menu .cancel_btn,
     .nav_bar .menu .media_2,
     .nav_bar .menu .phone_mail,
-    .navbar_mobile {
+    .navbar_mobile,
+    .btn_bar_2 {
         display: none;
     }
     /* End Nav_Bar*/
@@ -172,6 +184,7 @@
             color: var(--second-color);
         }
         .nav_bar .navbar_lg {
+            position: fixed !important;
             flex-direction: column;
             background-color: var(--main-color);
             width: 100%;
@@ -210,5 +223,21 @@
             text-transform: uppercase;
         }
         /* Nav Bar media End*/
+        .btn_bar_2_active {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 10px;
+            right: 10px;
+            font-size: 1.5rem;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: #e63946;
+        }
+        .btn_bar_2_active i {
+            color: #f1faee;
+        }
     }
     /*-------------------------------------------------*/

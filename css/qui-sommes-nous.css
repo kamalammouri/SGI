@@ -1,21 +1,30 @@
-              :root {
-                 --text-light-color: #949494;
-                 --main-color: #214b87;
-                 --second-color: #e63946;
-                 --third-color: #457b9d;
-                 --for-color: #f1faee;
-             }
-             
-             .qui-some-nous {
-                 color: var(--main-color);
-             }
-             
-             .qui-some-nous p {
-                 line-height: 1.5rem;
-                 word-spacing: 1.5px;
-             }
-             
-             .qui-some-nous .sgi-info {
-                 line-height: 1.5rem;
-                 word-spacing: 1.5px;
-             }
+:root {
+    --text-light-color: #949494;
+    --main-color: #214b87;
+    --second-color: #e63946;
+    --third-color: #457b9d;
+    --for-color: #f1faee;
+}
+
+.qui-some-nous {
+    color: var(--main-color);
+}
+
+.qui-some-nous p {
+    line-height: 1.5rem;
+    word-spacing: 1.5px;
+}
+
+.qui-some-nous .sgi-info {
+    line-height: 1.5rem;
+    word-spacing: 1.5px;
+    font-size: 0.9rem;
+}
+
+.qui-some-nous .mini-title {
+    font-size: 1.1rem;
+}
+
+.qui-some-nous .par_info {
+    font-size: 0.8rem;
+}
