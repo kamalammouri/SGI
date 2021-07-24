@@ -10,7 +10,7 @@
     color: var(--main-color);
 }
 
-.qui-some-nous p {
+.qui-some-nous .sgi-info {
     line-height: 1.5rem;
     word-spacing: 1.5px;
     color: var(--text-light-color);
@@ -22,14 +22,42 @@
     font-size: 0.9rem;
 }
 
-.qui-some-nous .mini-title {
-    font-size: 1.1rem;
-}
-
-.qui-some-nous .par_info {
-    font-size: 0.8rem;
-}
-
 .sgi {
-    border-bottom: 2px solid #e63946;
+    border-bottom: 2px solid var(--second-color);
+}
+
+.qui-some-nous .sgi_detail i {
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+
+.qui-some-nous .sgi_detail .mini-title {
+    font-size: 1.2rem;
+}
+
+.qui-some-nous .sgi_detail .par_info {
+    font-size: 0.8rem;
+    color: var(--text-light-color);
+}
+
+.choisire_nous {
+    background-color: #6f6f6f20;
+}
+
+#question_shoisire_nous {
+    color: var(--second-color);
+    font-weight: 600;
+}
+
+.choisire_nous .text-secondary {
+    color: var(--main-color) !important;
+}
+
+.choisire_nous h5 {
+    color: var(--third-color);
+}
+
+.choisire_nous p {
+    color: var(--text-light-color);
+    text-align: justify;
 }

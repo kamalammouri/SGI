@@ -235,6 +235,7 @@
             width: 50px;
             border-radius: 50%;
             background-color: #e63946;
+            z-index: 999;
         }
         .btn_bar_2_active i {
             color: #f1faee;
