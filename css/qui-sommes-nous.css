@@ -61,3 +61,7 @@
     color: var(--text-light-color);
     text-align: justify;
 }
+
+.card_list .nous_services {
+    color: #214b87 !important;
+}

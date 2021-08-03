@@ -242,23 +242,17 @@
         }
     }
     /*-------------------------------------------------*/
-    /*********FOOOOOOOOTER*****/
+    /*FOOOOOOOOTER*/
     
     .footer {
         background-color: var(--main-color);
         color: var(--for-color) !important;
-        text-align: justify;
-    }
-    
-    .footer .logo {
-        width: 80%;
-        margin: auto;
-        padding-bottom: 10px;
+        text-align: center;
     }
     
     .footer i {
         color: var(--for-color);
-        padding: 5px 10px;
+        padding: 5px 10px !important;
         font-size: 1.1rem;
     }
     
@@ -269,4 +263,5 @@
     .footer_end {
         color: var(--for-color);
         font-weight: 600;
+        font-size: 0.9rem;
     }
